@@ -1,0 +1,489 @@
+#main {
+    padding-top: 90px;
+
+    .section1 {
+        //크기
+        width: 100%;
+        height: 936px;
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+
+            //크기
+            width: 100%;
+
+            .containerMini {
+                width: 100%;
+                height: 700px;
+                background-color: var(--main-bg-color);
+                position: relative;
+
+                //위치
+                margin: 0 auto;
+
+                img.p1-Draw {
+                    position: absolute;
+                    left: 100px;
+                    top: 50%;
+                    transform: translateY(-50%);
+
+                    //이미지 크기
+                    width: 60%;
+                }
+
+                img.p1-Text {
+                    position: absolute;
+                    right: 200px;
+                    bottom: 100px;
+
+                }
+            }
+
+            div.infoBoxF {
+                display: flex;
+
+
+                div.infoBox {
+                    //크기 및 배경색
+                    display: inline-block;
+                    width: 308px;
+                    height: 97px;
+                    background-color: var(--main-bg-color);
+
+                    //글자위치
+                    text-align: center;
+                    position: relative;
+
+                    a {
+                        //글자 위치
+                        position: absolute;
+                        bottom: 18px;
+                        right: 50%;
+                        transform: translateX(50%);
+
+                        //글자 특징
+                        font-family: var(--main-font-family);
+                        font-size: 25px;
+                    }
+
+
+
+                    //사다리꼴 만들기
+                    // border-top: 224px;
+                    // border-left: 42px solid transparent;
+                    // border-right: 42px solid transparent;
+                    // height: 97px;
+                    // width: 308px;
+                }
+            }
+
+        }
+    }
+
+
+    .section2 {
+        width: 100%;
+        height: 1426px;
+        position: relative;
+        padding-bottom: 55px;
+
+        .container {
+            position: absolute;
+            padding: 180px 416px 100px 416px;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-family: var(--main-font-family);
+                font-size: 80px;
+                color: #726F6F;
+                //위치
+                text-align: center;
+                // display: inline-block;
+                // position: absolute;
+                // left: 50%;
+                // transform: translateX(-50%);
+            }
+
+            .searchBox {
+                display: flex;
+                justify-content: center;
+
+                .box {
+                    //.box의 크기 및 모양 정하기
+                    width: 633px;
+                    height: 88px;
+                    border: 2px solid #707070;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+
+                    position: relative;
+                    margin-top: 54px;
+
+                    .xi-search {
+                        position: absolute;
+                        right: 26px;
+                        top: 19px;
+
+                        //아이콘 사이즈
+                        font-size: 50px;
+                        color: #726F6F;
+
+                    }
+                }
+
+            }
+
+            .designBox {
+                //위치
+                z-index: 1;
+                position: relative;
+                margin-top: 145px;
+
+                //크기 및 모양
+                width: 1088px;
+                height: 50px;
+                background-color: #D6D4CD;
+                border-radius: 10px;
+
+
+                .mainBox {
+                    //위치
+                    z-index: 5;
+                    position: absolute;
+                    top: 20px;
+
+                    //모양 
+                    width: 100%;
+                    background-color: #EFEEEB;
+                    border-radius: 10px;
+                    box-sizing: border-box;
+
+
+
+                    padding: 71px 50px;
+
+                    .textBox {
+                        display: flex;
+                        flex-direction: column;
+
+                        h2 {
+                            display: inline-block;
+
+                            //글자
+                            font-family: var(--main-font-renew);
+                            font-size: 30px;
+                            font-weight: bold;
+                            color: #7D7878;
+
+                            margin-bottom: 25px;
+                        }
+
+                        span {
+                            //글자
+                            font-family: var(--main-font-renew);
+                            font-size: 20px;
+                            font-weight: bold;
+                            color: #7D7878;
+
+                            margin-bottom: 25px;
+                        }
+
+
+                    }
+
+                    ul.list {
+                        display: flex;
+                        flex-direction: row;
+                        margin-bottom: 25px;
+
+                        li {
+                            display: inline-block;
+                            padding: 9px 24px;
+                            border-radius: 10px;
+                            background-color: #ABAAA5;
+
+                            //위치
+                            margin-right: 16px;
+
+                            a {
+                                //글자
+                                font-family: var(--main-font-renew);
+                                font-size: 15px;
+                                font-weight: bold;
+                                color: white;
+                            }
+
+                        }
+                    }
+
+                    .whiteBox {
+                        //크기 및 모양
+                        padding: 40px 35px;
+                        height: 490px;
+                        background-color: white;
+                        border-radius: 10px;
+
+                        h3 {
+                            //속성
+                            display: inline-block;
+
+                            //글자
+                            font-family: var(--main-font-renew);
+                            font-size: 20px;
+                            font-weight: bold;
+                            color: #7D7878;
+
+                            //위치
+                            margin-bottom: 26px;
+
+                        }
+
+                        .sideLine {
+                            border-left: solid rgba(183, 183, 183, 0.51);
+                            padding-left: 25px;
+
+                            display: flex;
+                            flex-direction: column;
+
+
+
+                            .sideLineTop {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                margin-bottom: 15px;
+
+                                .subnew {
+                                    display: flex;
+                                    align-items: center;
+
+                                    .subTitle1 {
+                                        li {
+                                            //글자
+                                            font-family: var(--main-font-renew);
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                            color: #7D7878;
+
+                                            //위치
+                                            margin-bottom: 15px;
+                                        }
+                                    }
+
+                                    .subTitle2 {
+                                        li {
+                                            //글자
+                                            font-family: var(--main-font-renew);
+                                            font-size: 20px;
+                                            color: #7D7878;
+
+                                            //위치
+                                            margin-bottom: 15px;
+                                            margin-left: 30px;
+                                        }
+                                    }
+                                }
+
+
+
+                                img {
+                                    width: 150px;
+                                    border: 1px solid black;
+                                    border-radius: 10px;
+                                    margin-left: auto;
+                                }
+                            }
+
+                            .sideLineBottom {
+
+                                ul {
+                                    display: inline-block;
+
+                                    li {
+                                        display: inline-block;
+                                        margin-right: 58px;
+                                        position: relative;
+
+
+                                        //모양
+                                        span.circle1 {
+                                            display: block;
+                                            width: 127px;
+                                            height: 127px;
+                                            border: 5px solid #726F6F;
+                                            border-radius: 50%;
+
+                                            //위치
+                                            margin-bottom: 15px;
+                                        }
+
+                                        span.text {
+                                            position: absolute;
+                                            left: 50%;
+                                            transform: translateX(-50%);
+
+                                            //글자
+                                            font-family: var(--main-font-renew);
+                                            font-size: 20px;
+                                            color: #7D7878;
+
+
+
+                                        }
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+
+                }
+            }
+
+
+
+
+
+
+
+        }
+    }
+
+    .section3 {
+        width: 100%;
+        height: 1426px;
+        padding: 180px 0 55px 0;
+
+        .container {
+
+            padding: 0 140px;
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                display: inline-block;
+                font-family: var(--main-font-family);
+                font-size: 80px;
+                color: #726F6F;
+                //위치
+                text-align: center;
+                margin-bottom: 52px;
+                // display: inline-block;
+                // position: absolute;
+                // left: 50%;
+                // transform: translateX(-50%);
+            }
+
+            .workList {
+                li.slick-slide {
+                    display: inline-block;
+
+                    width: 350px !important;
+
+                    height: 600px;
+                    background-color: #EFEEEB;
+                    border-radius: 10px;
+
+                    margin-left: 50px;
+
+                    padding: 26px 26px 32px 26px;
+
+                    .image {
+                        width: 100%;
+                        height: 391px;
+                        background-color: white;
+                        border-radius: 10px;
+                        margin-bottom: 29px;
+                    }
+
+                    h3 {
+                        display: inline-block;
+                        text-align: center;
+                        width: 100%;
+                        margin-bottom: 14px;
+                        
+                         //글자
+                         font-family: var(--main-font-renew);
+                         font-size: 20px;
+                         color: #7D7878;
+                    }
+
+                    span {
+                        display: inline-block;
+                        width: 100%;
+                        text-align: center;
+
+                         //글자
+                         font-family: var(--main-font-renew);
+                         font-size: 15px;
+                         color: #7D7878;
+
+                         //위치
+                         margin-bottom: 54px;   
+                    }
+
+                    .workFlex {
+                        display: flex;
+                        flex-direction: column;
+
+                        .workDay {
+                            display:flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            margin-bottom: 15px;
+
+                            .text {
+                                 //글자
+                         font-family: var(--main-font-renew);
+                         font-size: 17px;
+                         color: #7D7878;
+
+                            }
+
+                            .bar {
+                                width: 230px;
+                                height: 21px;
+                                background-color: white;
+                                border-radius: 10px;
+                            }
+
+                        }
+
+                        .workHow {
+                            display:flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            margin-bottom: 15px;
+
+                            .text {
+                                 //글자
+                         font-family: var(--main-font-renew);
+                         font-size: 17px;
+                         color: #7D7878;
+
+                            }
+
+                            .bar {
+                                width: 230px;
+                                height: 21px;
+                                background-color: white;
+                                border-radius: 10px;
+                            }
+
+                        }
+                    }
+
+                }
+
+            }
+
+           
+
+
+
+        }
+    }
+}
