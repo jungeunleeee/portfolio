@@ -354,8 +354,7 @@
 
     .section3 {
         width: 100%;
-        height: 1426px;
-        padding: 180px 0 55px 0;
+        padding: 180px 0 90px 0;
 
         .container {
 
@@ -384,11 +383,11 @@
                 position: relative;
 
                 button.slick-prev {
-                   position: absolute;
-                   top: 50%;
-                   left: 0;
-                   transform: translateY(-50%);
-                   z-index: 10;
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    z-index: 10;
 
                 }
 
@@ -400,9 +399,9 @@
                     z-index: 10;
                 }
 
-                
+
                 li.slick-slide {
-                
+
                     display: inline-block;
 
                     width: 350px !important;
@@ -428,11 +427,11 @@
                         text-align: center;
                         width: 100%;
                         margin-bottom: 14px;
-                        
-                         //글자
-                         font-family: var(--main-font-renew);
-                         font-size: 20px;
-                         color: #7D7878;
+
+                        //글자
+                        font-family: var(--main-font-renew);
+                        font-size: 20px;
+                        color: #7D7878;
                     }
 
                     span {
@@ -440,13 +439,13 @@
                         width: 100%;
                         text-align: center;
 
-                         //글자
-                         font-family: var(--main-font-renew);
-                         font-size: 15px;
-                         color: #7D7878;
+                        //글자
+                        font-family: var(--main-font-renew);
+                        font-size: 15px;
+                        color: #7D7878;
 
-                         //위치
-                         margin-bottom: 54px;   
+                        //위치
+                        margin-bottom: 54px;
                     }
 
                     .workFlex {
@@ -454,16 +453,16 @@
                         flex-direction: column;
 
                         .workDay {
-                            display:flex;
+                            display: flex;
                             flex-direction: row;
                             justify-content: space-between;
                             margin-bottom: 15px;
 
                             .text {
-                                 //글자
-                         font-family: var(--main-font-renew);
-                         font-size: 17px;
-                         color: #7D7878;
+                                //글자
+                                font-family: var(--main-font-renew);
+                                font-size: 17px;
+                                color: #7D7878;
 
                             }
 
@@ -477,16 +476,16 @@
                         }
 
                         .workHow {
-                            display:flex;
+                            display: flex;
                             flex-direction: row;
                             justify-content: space-between;
                             margin-bottom: 15px;
 
                             .text {
-                                 //글자
-                         font-family: var(--main-font-renew);
-                         font-size: 17px;
-                         color: #7D7878;
+                                //글자
+                                font-family: var(--main-font-renew);
+                                font-size: 17px;
+                                color: #7D7878;
 
                             }
 
@@ -504,7 +503,76 @@
 
             }
 
-           
+
+
+
+
+        }
+    }
+
+    .section4 {
+        width: 100%;
+        padding: 180px 0 90px 0;
+
+
+        .container {
+            width: 1609px;
+            margin: 0 auto;
+
+            h1 {
+                // display: inline-block;
+                font-family: var(--main-font-family);
+                font-size: 80px;
+                color: #726F6F;
+                //위치
+                text-align: center;
+                margin-bottom: 52px;
+
+            }
+
+            .contactList {
+                display: flex;
+
+                li:not(:first-child) {
+                    margin-left: 55px;
+                }
+
+                li {
+                    width: 361px;
+                    height: 577px;
+                    border-radius: 10px;
+                    background-color: #EFEDE7;
+                    padding: 18px;
+
+                    .whiteContactBox {
+                        background-color: white;
+                        border-radius: 10px;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        i {
+                            font-size: 180px;
+                            margin-bottom: 45px;
+                            color: #726F6F;
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        strong {
+                            font-family: var(--main-font-renew);
+                            font-size: 30px;
+                            color: #726F6F;
+                            margin-top: 45px;
+                        }
+
+
+                     
+                    }
+                }
+            }
 
 
 
