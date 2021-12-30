@@ -378,7 +378,31 @@
             }
 
             .workList {
+                width: 1246px;
+                margin: 0 auto;
+
+                position: relative;
+
+                button.slick-prev {
+                   position: absolute;
+                   top: 50%;
+                   left: 0;
+                   transform: translateY(-50%);
+                   z-index: 10;
+
+                }
+
+                button.slick-next {
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    z-index: 10;
+                }
+
+                
                 li.slick-slide {
+                
                     display: inline-block;
 
                     width: 350px !important;
@@ -386,8 +410,8 @@
                     height: 600px;
                     background-color: #EFEEEB;
                     border-radius: 10px;
-
                     margin-left: 50px;
+
 
                     padding: 26px 26px 32px 26px;
 

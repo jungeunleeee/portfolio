@@ -371,6 +371,30 @@ a {
   margin-bottom: 52px;
 }
 
+#main .section3 .container .workList {
+  width: 1246px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#main .section3 .container .workList button.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+}
+
+#main .section3 .container .workList button.slick-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 10;
+}
+
 #main .section3 .container .workList li.slick-slide {
   display: inline-block;
   width: 350px !important;
