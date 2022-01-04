@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlossomEuniRe</title>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <script src="https://unpkg.com/swiper7/swiper-bundle.min.js"></script>
 
-    <!-- slick -->
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <!-- css reset -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
@@ -43,17 +44,19 @@
         <main id="main">
             <section class="section1">
                 <div class="container">
-                    <div class="containerMini">
+                    <div class="containerMini-1">
                         <img class="p1-Draw" src="assets/images/section1/p1-Draw your Dream.png"
                             alt="p1-Draw your Dream">
                         <img class="p1-Text" src="assets/images/section1/p1-Text.png" alt="p1-Text">
                     </div>
+                    <div class="containerMini-2">
+                    </div>
                     <div class="infoBoxF">
                         <div class="infoBox">
-                            <a href="#">info1</a>
+                            <a class="info1" href="#">info1</a>
                         </div>
-                        <div class="infoBox">
-                            <a href="#">info2</a>
+                        <div class="infoBox info2">
+                            <a class="info2" href="#">info2</a>
                         </div>
                     </div>
                 </div>
@@ -137,95 +140,137 @@
             <section class="section3">
                 <div class="container">
                     <h1>Work</h1>
-                    <ul class="workList">
-
-
-                        <li>
-                            <a href="#">
-                                <div class="image"></div>
-                                <h3>포트폴리오</h3>
-                                <span>~~을 토대로 제작하였습니다.</span>
-                            </a>
-                            <div class="workFlex">
-                                <ul class="workDay">
-                                    <li class="text">작업기간</li>
-                                    <li class="bar"></li>
-                                </ul>
-                                <ul class="workHow">
-                                    <li class="text">작업 기여도</li>
-                                    <li class="bar"></li>
-                                </ul>
+                    <div class="swiper swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                    <div class="image"><a href="#"></a></div>
+                                    <h3><a href="#">포트폴리오1</a></h3>
+                                    <span><a href="#">~~을 토대로 제작하였습니다.</a></span>
+                                <div class="workFlex">
+                                    <ul class="workDay">
+                                        <li class="text">작업기간</li>
+                                        <li class="bar">
+                                            <span class="bar2"></span>
+                                        </li>
+            
+                                    </ul>
+                                    <ul class="workHow">
+                                        <li class="text">작업 기여도</li>
+                                        <li class="bar">
+                                            <span class="bar3"></span>
+                                        </li>
+            
+                                    </ul>
+                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="image"></div>
-                                <h3>포트폴리오</h3>
-                                <span>~~을 토대로 제작하였습니다.</span>
-                            </a>
-                            <div class="workFlex">
-                                <ul class="workDay">
-                                    <li class="text">작업기간</li>
-                                    <li class="bar"></li>
-                                </ul>
-                                <ul class="workHow">
-                                    <li class="text">작업 기여도</li>
-                                    <li class="bar"></li>
-                                </ul>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="image"></div>
+                                    <h3>포트폴리오2</h3>
+                                    <span>~~을 토대로 제작하였습니다.</span>
+                                </a>
+                                <div class="workFlex">
+                                    <ul class="workDay">
+                                        <li class="text">작업기간</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                    <ul class="workHow">
+                                        <li class="text">작업 기여도</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="image"></div>
-                                <h3>포트폴리오</h3>
-                                <span>~~을 토대로 제작하였습니다.</span>
-                            </a>
-                            <div class="workFlex">
-                                <ul class="workDay">
-                                    <li class="text">작업기간</li>
-                                    <li class="bar"></li>
-                                </ul>
-                                <ul class="workHow">
-                                    <li class="text">작업 기여도</li>
-                                    <li class="bar"></li>
-                                </ul>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="image"></div>
+                                    <h3>포트폴리오3</h3>
+                                    <span>~~을 토대로 제작하였습니다.</span>
+                                </a>
+                                <div class="workFlex">
+                                    <ul class="workDay">
+                                        <li class="text">작업기간</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                    <ul class="workHow">
+                                        <li class="text">작업 기여도</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="image"></div>
-                                <h3>포트폴리오</h3>
-                                <span>~~을 토대로 제작하였습니다.</span>
-                            </a>
-                            <div class="workFlex">
-                                <ul class="workDay">
-                                    <li class="text">작업기간</li>
-                                    <li class="bar"></li>
-                                </ul>
-                                <ul class="workHow">
-                                    <li class="text">작업 기여도</li>
-                                    <li class="bar"></li>
-                                </ul>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="image"></div>
+                                    <h3>포트폴리오4</h3>
+                                    <span>~~을 토대로 제작하였습니다.</span>
+                                </a>
+                                <div class="workFlex">
+                                    <ul class="workDay">
+                                        <li class="text">작업기간</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                    <ul class="workHow">
+                                        <li class="text">작업 기여도</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="image"></div>
-                                <h3>포트폴리오</h3>
-                                <span>~~을 토대로 제작하였습니다.</span>
-                            </a>
-                            <div class="workFlex">
-                                <ul class="workDay">
-                                    <li class="text">작업기간</li>
-                                    <li class="bar"></li>
-                                </ul>
-                                <ul class="workHow">
-                                    <li class="text">작업 기여도</li>
-                                    <li class="bar"></li>
-                                </ul>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="image"></div>
+                                    <h3>포트폴리오5</h3>
+                                    <span>~~을 토대로 제작하였습니다.</span>
+                                </a>
+                                <div class="workFlex">
+                                    <ul class="workDay">
+                                        <li class="text">작업기간</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                    <ul class="workHow">
+                                        <li class="text">작업 기여도</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </li>
-                    </ul>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="image"></div>
+                                    <h3>포트폴리오6</h3>
+                                    <span>~~을 토대로 제작하였습니다.</span>
+                                </a>
+                                <div class="workFlex">
+                                    <ul class="workDay">
+                                        <li class="text">작업기간</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                    <ul class="workHow">
+                                        <li class="text">작업 기여도</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="image"></div>
+                                    <h3>포트폴리오7</h3>
+                                    <span>~~을 토대로 제작하였습니다.</span>
+                                </a>
+                                <div class="workFlex">
+                                    <ul class="workDay">
+                                        <li class="text">작업기간</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                    <ul class="workHow">
+                                        <li class="text">작업 기여도</li>
+                                        <li class="bar"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </d>
+            
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
             </section>
 
@@ -240,29 +285,46 @@
                                 <!-- <strong>_______</strong> -->
                                 <strong>E-mail</strong>
                             </div>
+                            <div class="nextWhiteBox">
+                                <strong>blossom-euni@naver.com</strong>
+                            </div>
                         </li>
+
                         <li>
                             <div class="whiteContactBox">
                                 <i class="xi-mobile"></i>
                                 <!-- <strong>_______</strong> -->
-                                <strong>E-mail</strong>
+                                <strong>Phone</strong>
+                            </div>
+                            <div class="nextWhiteBox">
+                                <strong>010-6815-6691</strong>
                             </div>
                         </li>
+
                         <li>
                             <div class="whiteContactBox">
                                 <i class="xi-kakaotalk"></i>
                                 <!-- <strong>_______</strong> -->
-                                <strong>E-mail</strong>
+                                <strong>Kakao Talk</strong>
+                            </div>
+                            <div class="nextWhiteBox">
+                                <strong>juilea98</strong>
                             </div>
                         </li>
+
                         <li>
-                            <div class="whiteContactBox">
-                                <i class="xi-folder-download"></i>
-                                <!-- <strong>_______</strong> -->
-                                <strong>E-mail</strong>
+                            <a href="#">
+                                <div class="whiteContactBox">
+                                    <i class="xi-folder-download"></i>
+                                    <!-- <strong>_______</strong> -->
+                                    <strong>Resume</strong>
+                                </div>
+                            </a>
+                            <div class="nextWhiteBox">
+                                <strong>신입 퍼블리셔 이정은 이력서</strong>
                             </div>
                         </li>
-                        
+
                     </ul>
                 </div>
 
@@ -278,30 +340,23 @@
         </footer>
     </div>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
     <script>
-        $('.workList').slick({
-            centerMode: true,
-            centerPadding: '80px',
-            slideToShow: 3,
-            responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '20px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '20px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
+        const swiper = new Swiper(".swiper", {
+            slidesPerView: 3,
+            centeredSlides: false,
+            spaceBetween: 40,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            observer: true,
+            observeParents: true,
         });
     </script>
 </body>
